@@ -4,7 +4,14 @@
 
 ## Sobre a Funcional
 
+Com expertise de mais de 20 anos, a Funcional
+realiza um trabalho integrado em gestão de saúde,
+que envolve milhões de vidas.
+Nosso sistema inteligente de informações permite o cruzamento de dados, com possibilidade de análises inéditas e alta capacidade de customização.
 
+Oferecemos soluções inovadoras para todo o segmento healthcare conectados à maior rede de farmácias e clínicas presente por todo o país.
+
+Nossa equipe formada por especialistas em saúde e tecnologia confere qualidade ao processo, excelência ao atendimento e credibilidade aos resultados.
 
 ## Desafio 
 
