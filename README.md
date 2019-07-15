@@ -36,4 +36,4 @@ Bônus:
 Obs: caso utilize banco de dados, dê preferência a Postgres, MySql ou MongoDB.
 
 ---
-Ao finalizar o desafio você deve submeter o **Pull Request** com o seu código para a avaliação, após isso nos entrarem em contato com você através do e-mail passando um feedback do seu projeto.
+Ao finalizar o desafio você deve submeter o **Pull Request** com o seu código para a avaliação, após isso nós entraremos em contato com você através do e-mail passando um feedback do seu projeto.
