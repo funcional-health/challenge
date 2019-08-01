@@ -1,39 +1,37 @@
-<p align="center">
-    <img src="http://www.funcionalacesso.com/Images/Logo-FuncionalHealthTech.png">
-</p>
+## Documentação
 
-## Sobre a Funcional
+- Após o clone do repositório, é preciso rodar o comando: 'composer-install' para instalar as dependencias do projeto.
+- Eu utilizei o mysql para o desafio, então é necessário criar uma base do mysql antes de rodar as migrações.
+- O nome da base pode ser o mesmo que eu usei, que foi: crudprodutos. Feito isso, é necessário configurar tambem o mesmo nome no .env.
+- Após isso é necessário rodar o comando: 'php artisan migrate' para criar as tabelas.
+- Após as tabelas criadas é necessário rodar o comando: 'php artisan db:seed' para popular as tabelas com dados fake.
+- Após realizar todos os passos acima, é necessário rodar o comando: 'php artisan serve'.
 
-Com expertise de mais de 20 anos, a Funcional
-realiza um trabalho integrado em gestão de saúde,
-que envolve milhões de vidas.
-Nosso sistema inteligente de informações permite o cruzamento de dados, com possibilidade de análises inéditas e alta capacidade de customização.
+## Como Testar
 
-Oferecemos soluções inovadoras para todo o segmento healthcare conectados à maior rede de farmácias e clínicas presente por todo o país.
+- A api pode ser com qualquer ferramenta que realiza requisições, minha sugestão é que use o postman.
+- Utilizei na api os 4 verbos http onde podem ser facilmente configurado no postman.
+ 
+## Verbos
 
-Nossa equipe formada por especialistas em saúde e tecnologia confere qualidade ao processo, excelência ao atendimento e credibilidade aos resultados.
+- Get: http://localhost:8000/api/products
 
-## Desafio 
+- Get: http://localhost:8000/api/products/1
 
-Você deve implementar uma API utilizando *PHP* > 7.0 ou Node. 
-Nós recomendamos que você tente manter o seu código o mais simples possível. 
-Se você precisar de qualquer informação adicional ou esclarecimento, você pode nos contatar pelo e-mail: **blima@funcionalcorp.com.br**.
+- Post: http://localhost:8000/api/products
+    {
+        "name": "omnis",
+        "industry": "Voluptas nisi velit commodi.",
+        "price": "15.00",
+        "quantity": "52"
+    }
 
-Vamos imaginar que a sua empresa possua um e-commerce e venda alguns produtos para laboratórios e hospitais...
+- Put: http://localhost:8000/api/products/1
+    {
+        "name": "omnis",
+        "industry": "Voluptas nisi velit commodi.",
+        "price": "15.00",
+        "quantity": "52"
+    }
 
-Sua tarefa é desenvolver um **CRUD** de Produtos via API e implementar um serviço de buscas desses produtos (não é necessário nenhuma tela).
-Um produto possui nome, industria, preço e quantidade em estoque.
-Por exemplo: Um cliente deve conseguir buscar todos os produtos da indústria Funcional.
-
-Sinta-se livre para usar qualquer framework da sua preferência mas a regra de negócio deve estar o mais desaclopada possível deles.
-
-Por favor, **não se esqueça** de providenciar uma pequena documentação de como levantar e testar o seu projeto.
-
-Bônus:
-* Docker
-* GraphQL
-
-Obs: caso utilize banco de dados, dê preferência a Postgres, MySql ou MongoDB.
-
----
-Ao finalizar o desafio você deve submeter o **Pull Request** com o seu código para a avaliação, após isso nós entraremos em contato com você através do e-mail passando um feedback do seu projeto.
+- Delete: http://localhost:8000/api/products/1
