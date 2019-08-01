@@ -1,0 +1,24 @@
+version: '2'
+services:
+  db:
+    image: mysql:5.7
+    volumes:
+      - "./.data/db:/var/lib/mysql"
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: crudprodutos
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+
+  web:
+    volumes:
+      - "./:/var/www/html"
+    depends_on:
+      - db
+    image: php:7.2-fpm
+    links:
+      - db
+    ports:
+      - "8080:80"
+    restart: always
