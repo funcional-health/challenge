@@ -1,0 +1,9 @@
+Projeto criado em Node usando: 
+-Babel
+-Express
+-Graphql
+-Mongoose
+
+É necessária a instalação de mongoDB na máquina para usar o banco, 
+as portas da conexão foram configuradas no index.js (porta 27017 para o banco),
+para o resto das dependências, usar o comando "npm install"
