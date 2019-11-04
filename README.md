@@ -15,7 +15,7 @@ Nossa equipe formada por especialistas em saúde e tecnologia confere qualidade 
 
 ## Desafio 
 
-Você deve implementar uma API utilizando *PHP* > 7.0 ou Node. 
+Você deve implementar uma API utilizando *PHP* > 7.0 ou Node (RJ) ou .NET (SP). 
 Nós recomendamos que você tente manter o seu código o mais simples possível. 
 Se você precisar de qualquer informação adicional ou esclarecimento, você pode nos contatar pelo e-mail: **blima@funcionalcorp.com.br**.
 
