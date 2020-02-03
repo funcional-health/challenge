@@ -16,18 +16,21 @@ Nossa equipe formada por especialistas em saúde e tecnologia confere qualidade 
 ## Desafio 
 
 Você deverá escolher um dos links abaixo e seguir as instruções:
+
 * [PHP](/php.md)
 * [Node.js](/node.md)
 * [C#](/csharp.md)
 
-Nós recomendamos que você tente manter o seu código o mais simples possível. 
-Se você precisar de qualquer informação adicional ou esclarecimento, você pode nos contatar pelos e-mails: 
+Nós recomendamos que você tente manter o seu código o mais simples possível.
+
+---
+
+Ao finalizar o desafio, envie o seu código para um novo repositório público do GitHub. Por favor, **não se esqueça** de providenciar uma pequena documentação de como levantar e testar o seu projeto.
+
+Por fim, envie o link para o seu repositório do Github para um dos e-mails abaixo: 
 
 - **Rio de Janeiro:** rflizzola@funcionalcorp.com.br (Renato Filizzola)
 - **São Paulo:** flima@funcionalcorp.com.br (Flavio Lima)
 - **Chapecó:** aquinot@funcionalcorp.com.br(Alan Quinot)
 
-Por favor, **não se esqueça** de providenciar uma pequena documentação de como levantar e testar o seu projeto.
-
----
-Ao finalizar o desafio você deve submeter o **Pull Request** com o seu código para a avaliação, após isso nós entraremos em contato com você através do e-mail passando um feedback do seu projeto.
+Se você precisar de qualquer informação adicional ou esclarecimento, você pode nos contatar pelos e-mails acima ou abrir uma nova issue neste repositório do GitHub.
