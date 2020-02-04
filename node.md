@@ -14,7 +14,7 @@ PARA poder saldar as minhas dívidas
 
 DADO QUE eu consuma a API GraphQL<br>
 QUANDO eu chamar a mutation `sacar` informando o número da conta e um valor válido<br>
-ENTÃO o saldo da minha conta no banco de dados aumentará de acordo<br>
+ENTÃO o saldo da minha conta no banco de dados reduzirá de acordo<br>
 E a mutation retornará o saldo atualizado.
 
 DADO QUE eu consuma a API GraphQL<br>
