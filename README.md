@@ -29,7 +29,7 @@ Ao finalizar o desafio, envie o seu código para um novo repositório público d
 
 Por fim, envie o link para o seu repositório do Github para um dos e-mails abaixo: 
 
-- **Rio de Janeiro:** rflizzola@funcionalcorp.com.br (Renato Filizzola)
+- **Rio de Janeiro:** rfilizzola@funcionalcorp.com.br (Renato Filizzola)
 - **São Paulo:** flima@funcionalcorp.com.br (Flavio Lima)
 - **Chapecó:** aquinot@funcionalcorp.com.br(Alan Quinot)
 
