@@ -1,36 +1,19 @@
-<p align="center">
-    <img src="http://www.funcionalacesso.com/Images/Logo-FuncionalHealthTech.png">
-</p>
+# Desafio Funcional Health
 
-## Sobre a Funcional
+O desafio foi desenvolvimento em typescript e nodejs, usando melhores práticas de desenvolvimento [SOLID](https://medium.com/joaorobertopb/o-que-%C3%A9-solid-o-guia-completo-para-voc%C3%AA-entender-os-5-princ%C3%ADpios-da-poo-2b937b3fc530) e [Clean Code](https://medium.com/joaorobertopb/2-clean-code-boas-pr%C3%A1ticas-para-escrever-c%C3%B3digos-impec%C3%A1veis-361997b3c8b5).
 
-Com expertise de mais de 20 anos, a Funcional
-realiza um trabalho integrado em gestão de saúde,
-que envolve milhões de vidas.
-Nosso sistema inteligente de informações permite o cruzamento de dados, com possibilidade de análises inéditas e alta capacidade de customização.
+### Instalação:
+A instalação depende dos pacotes [docker-compose](https://docs.docker.com/compose/install/) e [yarn](https://classic.yarnpkg.com/en/docs/install/#debian-stable) instalados na máquina.
+```sh
+$ git clone https://github.com/tiagomaradei/funcional-health.git
+$ cd funcional-health
+$ yarn
+$ sudo docker-compose up --build -d
+```
+Após instalação, abrir no navegador: http://localhost:4444/graphql
 
-Oferecemos soluções inovadoras para todo o segmento healthcare conectados à maior rede de farmácias e clínicas presente por todo o país.
-
-Nossa equipe formada por especialistas em saúde e tecnologia confere qualidade ao processo, excelência ao atendimento e credibilidade aos resultados.
-
-## Desafio 
-
-Você deverá escolher um dos links abaixo e seguir as instruções:
-
-* [PHP](/php.md)
-* [Node.js](/node.md)
-* [C#](/csharp.md)
-
-Nós recomendamos que você tente manter o seu código o mais simples possível.
-
----
-
-Ao finalizar o desafio, envie o seu código para um novo repositório público do GitHub. Por favor, **não se esqueça** de providenciar uma pequena documentação de como levantar e testar o seu projeto.
-
-Por fim, envie o link para o seu repositório do Github para um dos e-mails abaixo: 
-
-- **Rio de Janeiro:** rfilizzola@funcionalcorp.com.br (Renato Filizzola)
-- **São Paulo:** flima@funcionalcorp.com.br (Flavio Lima)
-- **Chapecó:** aquinot@funcionalcorp.com.br(Alan Quinot)
-
-Se você precisar de qualquer informação adicional ou esclarecimento, você pode nos contatar pelos e-mails acima ou abrir uma nova issue neste repositório do GitHub.
+### Tests
+O Projeto contém testes unitários e testes de integração, para rodar os testes só executar o comando abaixo dentro da pasta raiz do projeto:
+```sh
+yarn test
+```
