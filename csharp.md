@@ -141,7 +141,7 @@ Resposta:
 
 * A API deve ser desenvolvida em C# com .NET Core
 * O projeto deve ser entregue em um repositório do GitHub
-* O projeto deve ter testes unitários com PHPUnit com cobertura de testes >= a 85%
+* O projeto deve ter testes unitários com cobertura de testes >= a 85%
 
 ## Dicas
 
