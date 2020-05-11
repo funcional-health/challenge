@@ -16,7 +16,7 @@ E a mutation retornará o saldo atualizado.
 
 DADO QUE eu consuma a API <br>
 QUANDO eu chamar a mutation `sacar` informando o número da conta e um valor maior do que o meu saldo<br>
-ENTÃO a mutation me retornará um erro do GraphQL informando que eu não tenho saldo suficiente
+ENTÃO a mutation me retornará um erro informando que eu não tenho saldo suficiente
 
 DADO QUE eu consuma a API <br>
 QUANDO eu chamar a mutation `depositar` informando o número da conta e um valor válido<br>
