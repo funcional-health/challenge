@@ -22,6 +22,15 @@ Você deverá escolher um dos links abaixo e seguir as instruções:
 * [C#](/csharp.md)
 
 Nós recomendamos que você tente manter o seu código o mais simples possível.
+## O que será avaliado?
+Nosso time de desenvolvimento conta com profissionais curiosos, que possuem aquela "pulga atrás da orelha" criticando soluções e procurando novas alternativas cotidianamente. E o nosso objetivo é nutrir esse time trazendo talentos que atendam a esse perfil.Para tal, contamos com esse challenge que será responsável por "nivelar" suas skills, dentro das nossas cadeiras de analistas júnior, pleno e sênior.
+
+## E como isso será feito?
+Mensurando a profundidade técnica em quesitos como:
+* Lógica de programação
+* Orientação a objetos
+* Utilização de testes unitários
+* Conhecimento em _containers_ (Docker) e cloud computing
 
 ---
 
