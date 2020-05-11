@@ -1,14 +1,11 @@
 # Exame de Programador C\#
 
-**Objetivo**: desenvolver uma API GraphQL em C# + .NET Core simulando um caixa eletrônico.
-
+## Objetivo
+Desenvolver uma API GraphQL em PHP + Laravel que simule algumas funcionalidades de um banco digital.
 Nesta simulação considere que não há necessidade de autenticação.
 
-## História
-
-SENDO EU um correntista do banco<br>
-QUERO poder movimentar a minha conta corrente<br>
-PARA poder saldar as minhas dívidas
+## Desafio
+Você deverá garantir que o usuário conseguirá realizar uma movimentação de sua conta corrente para quitar uma dívida.
 
 ## Cenários
 
