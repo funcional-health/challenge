@@ -1,29 +1,30 @@
 # Exame de Programador PHP
 
 ## Objetivo
-Desenvolver uma API GraphQL em PHP + Laravel que simule algumas funcionalidades de um banco digital.
+Desenvolver uma API em PHP + Laravel que simule algumas funcionalidades de um banco digital.
 Nesta simulação considere que não há necessidade de autenticação.
+Nós utilizamos GraphQL para arquitetura de APIs, por isso, orientamos que você também opte por esse modelo. Caso ainda não tenha trabalhado com este modelo, não se preocupe pois não é um pré-requisito para vaga, apenas um diferencial. Mas, gostaríamos de desafiá-lo a experimentar
 
 ## Desafio
 Você deverá garantir que o usuário conseguirá realizar uma movimentação de sua conta corrente para quitar uma dívida.
 
 ## Cenários
 
-DADO QUE eu consuma a API GraphQL<br>
+DADO QUE eu consuma a API<br>
 QUANDO eu chamar a mutation `sacar` informando o número da conta e um valor válido<br>
 ENTÃO o saldo da minha conta no banco de dados diminuirá de acordo<br>
 E a mutation retornará o saldo atualizado.
 
-DADO QUE eu consuma a API GraphQL<br>
+DADO QUE eu consuma a API<br>
 QUANDO eu chamar a mutation `sacar` informando o número da conta e um valor maior do que o meu saldo<br>
 ENTÃO a mutation me retornará um erro do GraphQL informando que eu não tenho saldo suficiente
 
-DADO QUE eu consuma a API GraphQL<br>
+DADO QUE eu consuma a API<br>
 QUANDO eu chamar a mutation `depositar` informando o número da conta e um valor válido<br>
 ENTÃO a mutation atualizará o saldo da conta no banco de dados<br>
 E a mutation retornará o saldo atualizado.
 
-DADO QUE eu consuma a API GraphQL<br>
+DADO QUE eu consuma a API<br>
 QUANDO eu chamar a query `saldo` informando o número da conta<br>
 ENTÃO a query retornará o saldo atualizado.
 
@@ -137,7 +138,7 @@ Resposta:
 ## Requisitos Obrigatórios
 
 * A API deve ser desenvolvida em PHP com Laravel Framework
-* A API deve ser GraphQL
+* A API precisa de um banco de dados
 * O projeto deve ser entregue em um repositório do GitHub
 * O projeto deve ter testes unitários com PHPUnit com cobertura de testes >= a 85%
 
