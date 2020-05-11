@@ -1,7 +1,7 @@
 # Exame de Programador Node.js
 
 ## Objetivo
-Desenvolver uma API GraphQL em NodeJS que simule algumas funcionalidades de um banco digital.
+Desenvolver uma API em NodeJS que simule algumas funcionalidades de um banco digital.
 Nesta simulação considere que não há necessidade de autenticação.
 
 ## Desafio
@@ -9,23 +9,27 @@ Você deverá garantir que o usuário conseguirá realizar uma movimentação de
 
 ## Cenários
 
-DADO QUE eu consuma a API GraphQL<br>
+DADO QUE eu consuma a API <br>
 QUANDO eu chamar a mutation `sacar` informando o número da conta e um valor válido<br>
 ENTÃO o saldo da minha conta no banco de dados reduzirá de acordo<br>
 E a mutation retornará o saldo atualizado.
 
-DADO QUE eu consuma a API GraphQL<br>
+DADO QUE eu consuma a API <br>
 QUANDO eu chamar a mutation `sacar` informando o número da conta e um valor maior do que o meu saldo<br>
 ENTÃO a mutation me retornará um erro do GraphQL informando que eu não tenho saldo suficiente
 
-DADO QUE eu consuma a API GraphQL<br>
+DADO QUE eu consuma a API <br>
 QUANDO eu chamar a mutation `depositar` informando o número da conta e um valor válido<br>
 ENTÃO a mutation atualizará o saldo da conta no banco de dados<br>
 E a mutation retornará o saldo atualizado.
 
-DADO QUE eu consuma a API GraphQL<br>
+DADO QUE eu consuma a API <br>
 QUANDO eu chamar a query `saldo` informando o número da conta<br>
 ENTÃO a query retornará o saldo atualizado.
+
+## Exemplos
+
+Nós utilizamos GraphQl para arquitetura de APIs, por isso, orientamos que você também opte por esse modelo. Caso ainda não tenha trabalhado com este modelo, não se preocupe pois não é um pré-requisito para vaga, apenas um diferencial. Mas, gostaríamos de desafiá-lo a experimentar
 
 **Exemplo 1**
 
@@ -137,7 +141,6 @@ Resposta:
 ## Requisitos Obrigatórios
 
 * A API deve ser desenvolvida em Node.js
-* A API deve ser GraphQL.
 * O projeto deve ser entregue em um repositório do GitHub
 * O projeto deve ter testes unitários com cobertura de testes >= a 85%
 
