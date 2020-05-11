@@ -1,14 +1,10 @@
 # Exame de Programador PHP
 
-**Objetivo**: desenvolver uma API GraphQL em PHP + Laravel simulando um caixa eletrônico.
-
+**Objetivo**: Desenvolver uma API GraphQL em PHP + Laravel que simule algumas funcionalidades de um banco digital.
 Nesta simulação considere que não há necessidade de autenticação.
 
-## História
-
-SENDO EU um correntista do banco<br>
-QUERO poder movimentar a minha conta corrente<br>
-PARA poder saldar as minhas dívidas
+## Desafio
+Você deverá garantir que o usuário conseguirá realizar uma movimentação de sua conta corrente para quitar uma dívida.
 
 ## Cenários
 
@@ -141,11 +137,11 @@ Resposta:
 
 * A API deve ser desenvolvida em PHP com Laravel Framework
 * A API deve ser GraphQL
-* O banco de dados pode ser o de sua preferência (SQL ou NoSQL)
 * O projeto deve ser entregue em um repositório do GitHub
 * O projeto deve ter testes unitários com PHPUnit com cobertura de testes >= a 85%
 
-## Requisitos Opcionais
+# Dicas
 
-* Scripts do Docker
-* Subir o serviço na nuvem e disponibilizar a URL
+* Você poderá optar por utilizar um banco de dados relacional ou não relacional. Sugerimos que você utilize o Postgre, MySQL ou algum NoSQL como o Mongo;
+* Você também poderá desenvolver seu projeto utilizando cloud services. Se você optar por essa solução, não se esqueça de disponibilizar a URL! 
+* Colocar no repositório os scripts do Docker
