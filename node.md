@@ -139,12 +139,13 @@ Resposta:
 * A API deve ser desenvolvida em Node.js
 * A API deve ser GraphQL.
 * O projeto deve ser entregue em um repositório do GitHub
-* O projeto deve ter testes unitários com Jest com cobertura de testes >= a 85%
+* O projeto deve ter testes unitários com cobertura de testes >= a 85%
 
 ## Requisitos Opcionais (pontos extras!)
 
+* Usar o framework NestJS para a API, com approach "code first"
 * Utilizar a linguagem TypeScript (superset de JavaScript)
-* Usar o framework NestJS
+* Escrever os testes com Jest
 
 ## Dicas
 
