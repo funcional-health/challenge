@@ -141,12 +141,6 @@ Resposta:
 * O projeto deve ser entregue em um repositório do GitHub
 * O projeto deve ter testes unitários com cobertura de testes >= a 85%
 
-## Requisitos Opcionais (pontos extras!)
-
-* Usar o framework NestJS para a API, com approach "code first"
-* Utilizar a linguagem TypeScript (superset de JavaScript)
-* Escrever os testes com Jest
-
 ## Dicas
 
 * Você poderá optar por utilizar um banco de dados relacional ou não relacional. Sugerimos que você utilize o Postgres, MySQL ou algum NoSQL como o Mongo;
