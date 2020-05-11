@@ -141,11 +141,11 @@ Resposta:
 
 * A API deve ser desenvolvida em C# com .NET Core
 * A API deve ser GraphQL
-* O banco de dados pode ser o de sua preferência (SQL ou NoSQL)
 * O projeto deve ser entregue em um repositório do GitHub
-* O projeto deve ter testes unitários com cobertura de testes >= a 85%
+* O projeto deve ter testes unitários com PHPUnit com cobertura de testes >= a 85%
 
-## Requisitos Opcionais
+## Dicas
 
-* Scripts do Docker
-* Subir o serviço na nuvem e disponibilizar a URL
+* Você poderá optar por utilizar um banco de dados relacional ou não relacional. Sugerimos que você utilize o Postgres, MySQL ou algum NoSQL como o Mongo;
+* Você também poderá desenvolver seu projeto utilizando cloud services. Se você optar por essa solução, não se esqueça de disponibilizar a URL! 
+* Colocar no repositório os scripts do Docker
