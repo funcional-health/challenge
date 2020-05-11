@@ -143,6 +143,6 @@ Resposta:
 
 ## Dicas
 
-* Você poderá optar por utilizar um banco de dados relacional ou não relacional. Sugerimos que você utilize o Postgre, MySQL ou algum NoSQL como o Mongo;
+* Você poderá optar por utilizar um banco de dados relacional ou não relacional. Sugerimos que você utilize o Postgres, MySQL ou algum NoSQL como o Mongo;
 * Você também poderá desenvolver seu projeto utilizando cloud services. Se você optar por essa solução, não se esqueça de disponibilizar a URL! 
 * Colocar no repositório os scripts do Docker
