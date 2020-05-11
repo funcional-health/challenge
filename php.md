@@ -141,7 +141,7 @@ Resposta:
 * O projeto deve ser entregue em um repositório do GitHub
 * O projeto deve ter testes unitários com PHPUnit com cobertura de testes >= a 85%
 
-# Dicas
+## Dicas
 
 * Você poderá optar por utilizar um banco de dados relacional ou não relacional. Sugerimos que você utilize o Postgre, MySQL ou algum NoSQL como o Mongo;
 * Você também poderá desenvolver seu projeto utilizando cloud services. Se você optar por essa solução, não se esqueça de disponibilizar a URL! 
