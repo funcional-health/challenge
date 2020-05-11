@@ -1,7 +1,7 @@
 # Exame de Programador Node.js
 
 ## Objetivo
-Desenvolver uma API GraphQL em PHP + Laravel que simule algumas funcionalidades de um banco digital.
+Desenvolver uma API GraphQL em NodeJS que simule algumas funcionalidades de um banco digital.
 Nesta simulação considere que não há necessidade de autenticação.
 
 ## Desafio
@@ -139,7 +139,12 @@ Resposta:
 * A API deve ser desenvolvida em Node.js
 * A API deve ser GraphQL.
 * O projeto deve ser entregue em um repositório do GitHub
-* O projeto deve ter testes unitários com PHPUnit com cobertura de testes >= a 85%
+* O projeto deve ter testes unitários com Jest com cobertura de testes >= a 85%
+
+## Requisitos Opcionais (pontos extras!)
+
+* Utilizar a linguagem TypeScript (superset de JavaScript)
+* Usar o framework NestJS
 
 ## Dicas
 
