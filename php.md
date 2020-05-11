@@ -1,6 +1,7 @@
 # Exame de Programador PHP
 
-**Objetivo**: Desenvolver uma API GraphQL em PHP + Laravel que simule algumas funcionalidades de um banco digital.
+## Objetivo
+Desenvolver uma API GraphQL em PHP + Laravel que simule algumas funcionalidades de um banco digital.
 Nesta simulação considere que não há necessidade de autenticação.
 
 ## Desafio
